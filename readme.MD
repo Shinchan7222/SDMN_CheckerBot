@@ -1,5 +1,5 @@
 
-# SDMN CC Checker Bot
+# SDMN CC Checker Bot [Heroku]
 
 A Telegram CC Checker Bot with hella lotta features.
 
@@ -16,7 +16,7 @@ A Telegram CC Checker Bot with hella lotta features.
 
 - **Anti-Spam System**
     - Users have to wait a certain amount of time before performing the next task
-    - You can customize the time in config/config.php
+    - You can customize the time in ```ENVIRONMENT_VARIABLES`` on Heroku
 
 - **Checker Stats System**
     - Number of Live and Dead CC Checked by a User, and All users will be Visible
@@ -60,18 +60,23 @@ A Telegram CC Checker Bot with hella lotta features.
   
 ## ⚙️ Deployment
 
-### Hosting on Server [MySQL DB Required]
-
- - Download the Files from [Here](https://github.com/iam-NVN/SDMN_CheckerBot/archive/refs/heads/main.zip)
- - Upload it to your Server and Extract it
- - Edit config/config.php file and set Admin ID, Logs ID, DB Credentials and SK Keys
- - Import checkerbot.sql file into your Database through PHPmyAdmin
- - Set Webhook to main.php in root folder of bot 
-
 ### Hosting on Heroku
-**[Click Here to go to Heroku Version](https://github.com/iam-NVN/SDMN_CheckerBot/tree/heroku-version)**
-
-
+    
+ [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Dhatterimaakichut/SDMN_CheckerBot)
+ - Star and Fork this Repo
+ - Click on the Above Shown ```Deploy To Heroku``` Button
+ - Get Free Database from [Here](https://freesqldatabase.com)
+ - Login to [WebPHPmyAdmin](http://www.phpmyadmin.co) with DB Credentials
+ - Import checkerbot.sql file into your Database through PHPmyAdmin
+ - Enter the Vars asked whilst Deploying the App
+ - Set Webhook to main.php in your Heroku app
+   - https://api.telegram.org/bot5091817901:AAEWztn1fe68E-JEy2Zx5Xvs2XCgs8nKXe4/setWebhook?url=https://karmachkbot.herokuapp.com/main.php   <br />
+    Open the URL Replacing ```[BOTTOKEN]``` With your BotToken and ```[HEROKUAPPNAME]``` with your Heroku App Name
+ <br />
+webhook-powerful-93356
+https://api.telegram.org/bot5091817901:AAEWztn1fe68E-JEy2Zx5Xvs2XCgs8nKXe4/setWebhook?url=https://karmachkbot.herokuapp.com/main.php
+e20adcc7ba4024c1964a0bee7c5092f604787f3ce788f00a40447fc08276
+https://github.com/Dhatterimaakichut/karmachk
 ## 🎯 Author
 
 - [@iam-NVN](https://www.github.com/octokatherine)
@@ -79,7 +84,7 @@ A Telegram CC Checker Bot with hella lotta features.
 ## 💸 Donations 
 If you're feeling generous and want to support this project, you can donate 
 
-<a href="https://www.blockchain.com/btc/address/1BNdZDEMfwaFfKULKucMkytXVqoWp4dfij">
+<a href="https://www.blockchain.com/btc/address/33Kya1FcwLBUfPwfH6GTkyZswH9RZjPr51">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2WR24fnzSsiHf1TmpIWQn_E3qgJTLBcsK5w&usqp=CAU" alt="Bitcoin" height="25" style="margin-left: 15px;"/>
 </a> - Donate through Bitcoin
 
