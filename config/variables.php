@@ -40,6 +40,9 @@ $live_array = array(
     '"cvc_check": "fail"', 
     '"cvc_check": "pass"', 
     'insufficient_funds',
+    'lost_card',
+    'stolen_card',
+    "pickup_card",
     'Your card does not support this type of purchase',
     'transaction_not_allowed',
     'CVV INVALID'

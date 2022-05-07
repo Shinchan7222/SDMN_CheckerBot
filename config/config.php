@@ -9,7 +9,7 @@
 | It can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['botToken'] = "";
+$config['botToken'] = "5371601542:AAGAJjzIpCCFJ1Kx1l9RyG_O9xp0UA3S100";
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +20,7 @@ $config['botToken'] = "";
 | ID can be obtained from https://telegram.dog/username_to_id_bot
 |
 */
-$config['adminID'] = "";
+$config['adminID'] = "1324149659";
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ $config['adminID'] = "";
 | ID can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['logsID'] =  "";
+$config['logsID'] =  "-1659771815";
 
 /*
 |--------------------------------------------------------------------------
@@ -52,10 +52,10 @@ $config['timeZone'] =  "Asia/Kolkata";
 | Database to Store User Data
 |
 */
-$config['db']['hostname'] =  "localhost";
-$config['db']['username'] =  "root";
-$config['db']['password'] =  "";
-$config['db']['database'] =  "checkerbot";
+$config['db']['hostname'] =  " sql6.freesqldatabase.com";
+$config['db']['username'] =  "sql6458113";
+$config['db']['password'] =  "sql6458113";
+$config['db']['database'] =  "rBh83M86Wa";
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ $config['db']['database'] =  "checkerbot";
 | Value is in Seconds. "20" = 20seconds
 |
 */
-$config['anti_spam_timer'] =  "20";
+$config['anti_spam_timer'] =  "10";
 
 /*
 |--------------------------------------------------------------------------
