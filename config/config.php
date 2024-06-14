@@ -9,7 +9,7 @@
 | It can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['botToken'] = "5371601542:AAGAJjzIpCCFJ1Kx1l9RyG_O9xp0UA3S100";
+$config['botToken'] = "7395080778:AAEHUg9WkaDOLOH_8Ngg0ndHBr8PXcnCLQc";
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +20,7 @@ $config['botToken'] = "5371601542:AAGAJjzIpCCFJ1Kx1l9RyG_O9xp0UA3S100";
 | ID can be obtained from https://telegram.dog/username_to_id_bot
 |
 */
-$config['adminID'] = "1324149659";
+$config['adminID'] = "7157901548";
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ $config['adminID'] = "1324149659";
 | ID can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['logsID'] =  "-1659771815";
+$config['logsID'] =  "-1002148438403";
 
 /*
 |--------------------------------------------------------------------------
@@ -52,10 +52,10 @@ $config['timeZone'] =  "Asia/Kolkata";
 | Database to Store User Data
 |
 */
-$config['db']['hostname'] =  " sql6.freesqldatabase.com";
-$config['db']['username'] =  "sql6458113";
-$config['db']['password'] =  "sql6458113";
-$config['db']['database'] =  "rBh83M86Wa";
+$config['db']['hostname'] =  "mysql1.serv00.com";
+$config['db']['username'] =  "m8952_cc";
+$config['db']['password'] =  "Shinchan7222";
+$config['db']['database'] =  "m8952_cc";
 
 /*
 |--------------------------------------------------------------------------
