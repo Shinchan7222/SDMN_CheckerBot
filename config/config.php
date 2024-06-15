@@ -52,10 +52,10 @@ $config['timeZone'] =  "Asia/Kolkata";
 | Database to Store User Data
 |
 */
-$config['db']['hostname'] =  "mysql-3c9706d-naruto-9d5b.j.aivencloud.com:28957";
-$config['db']['username'] =  "avnadmin";
-$config['db']['password'] =  "AVNS_Qr4iZTnTovojheQDSHq";
-$config['db']['database'] =  "defaultdb";
+$config['db']['hostname'] =  "sql12.freesqldatabase.com";
+$config['db']['username'] =  "sql12714151";
+$config['db']['password'] =  "PrARY52vy4";
+$config['db']['database'] =  "sql12714151";
 
 /*
 |--------------------------------------------------------------------------
